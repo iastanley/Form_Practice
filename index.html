@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Course Application</title>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+<body>
+<header>
+	<h1>Course Application</h1>
+</header>
+<form>
+	<fieldset>
+		<legend>Your Contact Info</legend>
+		<div class="form-row">
+			<label for="name">Your Name</label>
+			<div class="form-name">
+				<input name="name" type="text"></input>	
+				<input name="name" type="text"></input>	
+			</div>
+
+		</div>
+		<div class="form-row">
+			<label for="phone-number">Phone Number</label>
+			<div class="form-phonenumber">
+				<input name="phone-number"></input>
+				<input name="phone-number"></input>
+				<input name="phone-number"></input>
+			</div>	
+		</div>
+		
+			<br>
+		<div class="form-row">
+			<label for="address">Address</label>
+			<div class="form-address">
+				<input name="street" placeholder="Street Address"></input><br>
+				<input name="address-line2" placeholder="Address Line 2"></input><br>
+				<input name="city" placeholder="City"></input><br>
+				<input name="state" placeholder="State"></input><br>
+				<input name="postal" placeholder="Postal Code"></input><br>
+			</div>
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend>Skills & Interests</legend>
+		<div class="form-row">
+			<label>Course</label>
+			<div>
+				<select>
+					<option>Select One</option>
+					<optgroup label="Web Development">
+						<option value="front-end">Front-End</option>
+						<option value="back-end">Back-End</option>
+					</optgroup>
+				</select>
+			</div>
+		</div>
+		<div class="form-row">
+			<label>Past Experience</label>
+			<div>
+				<textarea></textarea>
+			</div>
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend>Anything Else?</legend>
+		<div class="form-row">
+			<label>Referral</label>
+			<div>
+				<select>
+					<option value="none">None</option>
+					<option value="friend">Friend</option>
+					<option value="instructor">Instructor</option>
+					<option value="online">Online</option>
+				</select>
+			</div>
+		</div>
+		<div class="form-row">
+			<label>Comments</label>
+			<div>
+				<textarea></textarea>
+			</div>
+		</div>
+	</fieldset>
+
+</form>
+<footer>
+	<form>
+		<input type="submit" value="Save Draft">
+		<input type="submit" value="Submit">
+	</form>
+</footer>
+</body>
+</html>
